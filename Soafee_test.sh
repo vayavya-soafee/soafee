@@ -27,8 +27,8 @@ for file_name in "${video_files[@]}"; do
 
 	check_container_status "soafee_video_streamer"
 	sleep 5
-	docker stop soafee_object_detector
-	sleep 5
+	#docker stop soafee_object_detector
+	#sleep 5
 	compare_text_files() {
 		local file1=$1
 		local file2=$2
