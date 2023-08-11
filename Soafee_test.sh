@@ -5,10 +5,15 @@ mkdir results
 chmod 666 results
 
 
-
+counter =0
 video_files=("Video0" "Video1" "Video2" "Video3" "Video4")
 
 for file_name in "${video_files[@]}"; do
+	if($counter eq 1): then
+ 		docker network rm soafee-network
+   		docker network create --driver bridge soafee-network
+     		((counter++))
+       	fi
 	docker run -p 8089:8089 -p 5000:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector:arm64
 	docker run --name soafee_video_streamer -e TEST_MODE=1 --rm --network=soafee-network -v "$(pwd)"/Video_files/$file_name.mp4:/src/assets/Video0.mp4 -dit vayavyaaccountdockerhub/soafee_video_streamer:arm64
 	sleep 5
