@@ -5,11 +5,11 @@ mkdir results
 chmod 666 results
 
 
-counter =1
+counter=1
 video_files=("Video0" "Video1" "Video2" "Video3" "Video4")
 
 for file_name in "${video_files[@]}"; do
-	if [ $counter eq 1 ]; then
+	if [ $counter -eq 1 ]; then
  		docker network rm soafee-network
    		docker network create --driver bridge soafee-network
      		((counter++))
