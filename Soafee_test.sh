@@ -35,6 +35,8 @@ for file_name in "${video_files[@]}"; do
 	#docker stop soafee_object_detector
 	#sleep 5
 	compare_text_files() {
+ 		chmod 777 results/Generated_ref.txt
+
 		local file1=$1
 		local file2=$2
   		echo "File 1: $file1"
