@@ -6,7 +6,7 @@ chmod 777 results
 
 
 counter=1
-video_files=("Video1" "Video2" "Video3" "Video4")
+video_files=("Video0" "Video1" "Video2" "Video3" "Video4")
 
 for file_name in "${video_files[@]}"; do
 	if [ $counter -eq 1 ]; then
