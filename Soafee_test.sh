@@ -2,7 +2,7 @@
 
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
 mkdir results
-chmod 666 results
+chmod 777 results
 
 
 counter=1
