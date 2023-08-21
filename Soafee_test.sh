@@ -37,7 +37,8 @@ for file_name in "${video_files[@]}"; do
 	compare_text_files() {
 		local file1=$1
 		local file2=$2
-		
+  		echo "File 1: $file1"
+    		echo "File 2: $file2"
 		lines1=$(head -n 50 "$file1")
 		lines2=$(head -n 50 "$file2")
 		
