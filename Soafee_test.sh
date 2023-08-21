@@ -41,8 +41,9 @@ for file_name in "${video_files[@]}"; do
   		echo "File 1: $file1"
     		echo "File 2: $file2"
 		lines1=$(head -n 50 "$file1")
+  		echo "lines1"
 		lines2=$(head -n 50 "$file2")
-		
+		echo "lines2"
 		if [ "$lines1" = "$lines2" ]; then
 			echo "The files are the same."
 		else
