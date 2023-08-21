@@ -1,8 +1,8 @@
 #!/bin/bash
 
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
-mkdir results
-chmod 777 results
+mkdir "$(pwd)"/results
+chmod 777 "$(pwd)"/results
 
 
 counter=1
@@ -35,8 +35,7 @@ for file_name in "${video_files[@]}"; do
 	#docker stop soafee_object_detector
 	#sleep 5
 	compare_text_files() {
- 		chmod 777 results/Generated_ref.txt
-
+ 		
 		local file1=$1
 		local file2=$2
   		echo "File 1: $file1"
