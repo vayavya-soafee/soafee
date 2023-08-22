@@ -1,8 +1,8 @@
 #!/bin/bash
 
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
-mkdir "$(pwd)"/results
-chmod 777 "$(pwd)"/results
+mkdir results
+chmod 777 results
 
 
 counter=1
