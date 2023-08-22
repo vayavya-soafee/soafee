@@ -29,7 +29,7 @@ for file_name in "${video_files[@]}"; do
 			sleep 1
 		done
 	}
-
+	sleep 10
 	check_container_status "soafee_video_streamer"
 	sleep 5
 	#docker stop soafee_object_detector
