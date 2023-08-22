@@ -53,6 +53,7 @@ for file_name in "${video_files[@]}"; do
     			exit 1
   		fi
 	}
+ 	chmod 777 "$(pwd)"/results/Generated_ref.txt
 	compare_text_files ""$(pwd)"/results/Generated_ref.txt" ""$(pwd)"/Golden_ref/$file_name.txt"
 
 done
