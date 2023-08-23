@@ -1,12 +1,12 @@
 car car car car car car car bus bus boat 
 car car car car car car bus 
 car car bus bus bus 
-car car car bus bus bus 
-car car car bus bus 
+car car car car bus bus bus 
+car car bus bus 
 car car car bus bus bus bus 
 car car bus bus bus bus 
 car car bus bus 
-car car car bus bus bus 
+car car car bus bus 
 car car car bus bus 
 car car car car bus bus bus 
 car car car bus bus 
@@ -14,7 +14,7 @@ car car car car bus bus
 car car car car bus bus 
 car car car car car car car bus bus 
 car car car car car car car car bus bus 
-car car car car car car bus bus bus 
+car car car car car bus bus bus 
 car car car car car car bus bus bus 
 car car car car car car car bus bus 
 car car car car car car bus bus 
@@ -23,313 +23,28 @@ person person car car car car car car car car bus bus bus
 person person car car car car car car car bus bus 
 person person car car car car car car bus bus 
 person person car car car car car car car car bus bus 
-person car car car bus bus 
-person car car car bus bus 
+person car car car car car car car bus bus 
 person car car car car bus bus 
-person car car car car car car bus bus 
+person car car car car bus bus 
+person car car car car car bus bus 
 person car car car car car bus bus 
 car car car car car car bus bus 
-person car car car car bus bus 
+person car car car car car bus bus 
 person car car car car bus bus bus 
 person car car car bus bus bus 
 car car bus bus 
-person car car car bus bus 
+person car car bus bus 
 person car car car car car bus bus 
-person car car car car car car car bus bus 
+car car car car car car car bus bus 
 car car car car car car car bus bus 
 person car car car car car car car car bus bus 
 person car car car car car bus bus 
-person car car car car car car bus bus 
-person car car car car car car bus bus 
+person car car car car car bus bus 
+person car car car car car bus bus 
+person car car car car car bus bus 
 person car car car car car bus bus 
 person car car car car car car bus bus 
-person car car car car car bus bus 
 person car car car car car car bus bus 
-person car car car car car car bus 
+person car car car car car car bus bus 
 person car car car car bus boat 
-person car car car bus truck 
-person car car car car bus bus 
-person car car car bus bus 
-person car car car bus truck 
-person car car car bus truck 
-person car car car car car bus bus boat 
 person car car bus truck 
-person car bus truck 
-person car car bus truck boat 
-person car car bus bus boat 
-person car car car bus bus boat 
-car car bus truck 
-car car bus bus 
-car car bus bus 
-car car bus truck 
-car car bus bus 
-car car bus bus 
-car bus bus 
-person person car car car bus bus 
-person car car car car bus bus 
-person car car car bus bus 
-person car car car car car bus bus 
-person car car car car car bus bus 
-person car car car car bus bus 
-person car car car bus bus 
-person car car car bus bus 
-person car car bus bus 
-person bus bus 
-bus bus 
-person bus bus 
-bus bus 
-car car bus bus 
-car bus bus 
-car bus bus 
-car bus bus 
-bus bus 
-bus bus 
-car bus bus umbrella 
-person car bus 
-person bus 
-person bus 
-bus 
-car car bus 
-car bus bus bus 
-car car bus bus 
-car bus bus 
-car bus bus 
-car bus bus bus 
-car bus bus 
-person bus bus 
-person car bus 
-bus 
-bus 
-bus 
-bus 
-bus 
-bus 
-bus 
-bus 
-bus 
-car bus 
-car bus 
-car bus bus 
-car bus bus 
-car bus bus 
-bus 
-bus 
-bus 
-bus 
-car bus 
-bus 
-car car car bus bus 
-person car bus bus 
-car car car bus bus bus bus 
-car car bus 
-bus bus bus 
-car bus bus bus 
-car car car car bus bus bus 
-car car car bus bus 
-car car car bus bus 
-car bus bus 
-car bus bus bus 
-person bus bus bus 
-person bus bus 
-car car bus bus bus 
-car bus bus 
-person car car bus bus 
-car car bus bus bus 
-car car bus bus bus 
-car car bus bus bus 
-person car bus bus bus 
-car motorbike bus bus bus 
-car bus bus bus 
-car car car bus bus bus 
-car bus bus bus 
-car car car bus bus bus 
-person bus bus bus 
-car bus bus bus 
-person car car car bus bus bus 
-car bus bus bus 
-car car bus bus bus 
-car car bus bus bus 
-car car bus bus bus 
-person car car car bus bus bus 
-car car car car car bus bus bus 
-car car car car car car bus bus bus 
-car car car car car bus bus bus truck 
-car car car car car bus bus bus 
-car car car car car bus bus bus 
-car car car bus bus 
-car car car car bus bus bus 
-car car car bus bus bus 
-car car car bus bus bus 
-car car car car car bus bus bus 
-car car car car car bus bus bus 
-car car car car car bus bus bus 
-car car car car car bus bus bus 
-car car car car bus bus bus 
-car car car bus bus bus 
-car car car car bus bus 
-car car car bus bus 
-car car car bus bus 
-car car car car car car bus bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car car car bus bus 
-car car car car car bus bus bus 
-car car car car bus bus 
-bicycle car car car car bus 
-car car bus bus 
-car bus bus 
-car car bus bus 
-bicycle car car car car car bus bus 
-car car car motorbike bus bus 
-car car car car car bus bus 
-person car car car car car motorbike bus bus bus 
-person car car car car car motorbike bus bus bus 
-person car car car car car bus 
-car car car car bus bus 
-car car car car car car bus bus 
-car car car car car car bus bus bus 
-car car car car car car bus 
-car car car car car car car bus 
-car car car car car bus bus 
-car car car car car car car bus bus 
-car car car car car car car bus 
-car car car car car bus 
-car car car car car bus 
-person car car car car car bus 
-person car car car bus 
-person car car car car car bus 
-person car car car car bus truck 
-person car car car bus 
-person car car car car car bus 
-person car car car car car bus 
-person car car car car bus 
-person car car car car bus bus 
-person car car car car bus bus 
-person car car car car bus 
-person car car car car bus bus bus 
-car car car bus bus bus 
-car car car car bus bus 
-car car car car car bus bus bus 
-person car car car bus bus bus bus truck 
-person car car car car bus bus bus bus truck 
-person car car car car bus bus 
-person car car car car bus bus 
-person car car car car car bus bus truck 
-person car car car car bus bus truck 
-person car car car car car bus bus truck 
-person car car car car bus bus bus bus 
-person car car car car bus truck 
-car car car car bus bus truck 
-person car car car bus bus bus truck 
-person car car car car bus bus bus bus bus truck 
-car car car car bus bus bus bus bus truck 
-car car car car bus bus bus bus truck 
-car car car car bus bus bus bus bus bus truck 
-car car car car bus bus bus bus bus truck 
-car car car car car bus bus bus bus truck 
-car car car car car bus bus bus truck 
-car car car car car bus bus bus truck 
-car car car car car car bus bus bus truck 
-car car car car car bus bus bus truck 
-car car car car car car bus bus bus bus truck 
-car car car car bus bus bus bus truck 
-car car car car car bus bus bus truck 
-car car car car car bus bus bus 
-car car car car bus bus bus bus 
-car car car car bus bus bus 
-car car car car bus bus bus 
-car car car bus bus 
-car car car bus bus bus 
-car car car bus bus bus bus 
-car car car bus bus bus 
-car car car bus bus 
-car car car bus bus 
-car car car bus 
-car car car bus 
-car car bus 
-car car car bus 
-car car car bus bus truck 
-car car car bus bus truck 
-car car car bus bus 
-car car car car bus bus truck 
-car car car car car bus bus truck 
-car car car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car bus bus 
-car car car car bus bus truck 
-car car car car car bus bus truck 
-car car car car car bus bus truck 
-car car car car car bus bus truck 
-car car car car car bus bus truck 
-car car car car car bus bus 
-car car car bus bus 
-car bus bus bus 
-car car car bus bus 
-car bus bus 
-car bus bus 
-car car bus 
-car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car car car bus bus 
-car car car bus bus 
-car car car bus bus 
-car car car car bus bus 
-car car car car bus bus 
-car car car bus bus 
-car car bus 
-car car car car bus 
-car car car car bus 
-car car car bus bus 
-car car bus bus 
-car car bus bus 
-car car bus bus bus 
-car bus bus 
-car bus bus bus 
-car bus bus 
-car car bus 
-car bus bus truck 
-car car bus 
-car bus bus 
-car bus bus 
-car car bus 
-car bus bus 
-car bus bus 
-car bus bus 
-car bus bus 
-car bus bus 
-car bus bus 
-person car bus bus 
-person car bus bus 
-person car car bus bus 
-car car bus bus 
-person car car bus bus 
-person car bus bus 
-person car bus bus 
-person car bus bus 
-car bus bus 
-car car car bus bus 
-car car car bus bus 
-car car car bus bus 
-car car car bus bus 
-person car bus bus 
-car car bus bus 
-bus bus truck 
-car bus bus truck 
-car car car bus bus 
-car bus bus 
-car car bus bus 
-car bus bus 
-car bus bus 
-car bus bus 
-bus bus 
-car bus bus 
-car car car bus bus 
-car bus bus 
-person car car bus bus 
