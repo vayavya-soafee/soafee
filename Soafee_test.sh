@@ -41,8 +41,10 @@ for file_name in "${video_files[@]}"; do
  		
 		local file1=$1
 		local file2=$2
+  		local file3=""$(pwd)"/results/Generated_ref.txt"
   		echo "File 1: $file1"
     		echo "File 2: $file2"
+      		echo "File 3: $file3"
       		echo "ls inside file comp function"
 		ls
   		echo "pwd inside file comp function"
@@ -52,19 +54,19 @@ for file_name in "${video_files[@]}"; do
       		#ls
 		#lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
-    		echo $lines1
+    		#echo $lines1
       		#cd ..
 		#pwd
 		#lines2=$(head -n 50 "$file2")
 		#echo "golden line 2"
-  		echo $lines2
+  		#echo $lines2
 		#if [ "$lines1" = "$lines2" ]; then
 		#	echo "The files are the same."
 		#else
 		#	echo "The files are different."
     		#	exit 1
   		#fi
-    		if [ $file1 == $file2 ]; then
+    		if [ $file3 == $file2 ]; then
     			echo "The files are the same."
 		else
     			echo "The files are different."
