@@ -64,7 +64,7 @@ for file_name in "${video_files[@]}"; do
 		#	echo "The files are different."
     		#	exit 1
   		#fi
-    		if [ $file1 == $file2]; then
+    		if [ $file1 == $file2 ]; then
     			echo "The files are the same."
 		else
     			echo "The files are different."
