@@ -48,10 +48,12 @@ for file_name in "${video_files[@]}"; do
   		echo "pwd inside file comp function"
 		pwd
   		cd results
+    		pwd
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
     		echo $lines1
       		cd ..
+		pwd
 		lines2=$(head -n 50 "$file2")
 		echo "golden line 2"
   		echo $lines2
