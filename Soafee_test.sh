@@ -49,6 +49,7 @@ for file_name in "${video_files[@]}"; do
 		pwd
   		cd results
     		pwd
+      		ls
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
     		echo $lines1
