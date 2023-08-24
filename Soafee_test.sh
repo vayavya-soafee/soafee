@@ -3,7 +3,8 @@
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
 mkdir results
 chmod 777 results
-
+ls
+pwd
 
 counter=1
 video_files=("Video0" "Video1" "Video2" "Video3" "Video4")
@@ -40,6 +41,8 @@ for file_name in "${video_files[@]}"; do
 		local file2=$2
   		echo "File 1: $file1"
     		echo "File 2: $file2"
+      		ls
+		pwd
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
     		echo $lines1
