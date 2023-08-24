@@ -3,7 +3,9 @@
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
 mkdir results
 chmod 777 results
+echo "ls inside script"
 ls
+echo "pwd inside script"
 pwd
 
 counter=1
@@ -41,7 +43,9 @@ for file_name in "${video_files[@]}"; do
 		local file2=$2
   		echo "File 1: $file1"
     		echo "File 2: $file2"
-      		ls
+      		echo "ls inside file comp function"
+		ls
+  		echo "pwd inside file comp function"
 		pwd
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
