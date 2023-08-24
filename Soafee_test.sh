@@ -50,6 +50,7 @@ for file_name in "${video_files[@]}"; do
   		cd results
     		pwd
       		ls
+		touch Generated_ref.txt
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
     		echo $lines1
