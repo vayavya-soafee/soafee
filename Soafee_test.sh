@@ -42,7 +42,8 @@ for file_name in "${video_files[@]}"; do
 		local file1=$1
 		local file2=$2
 		cd results
-  		ls
+  		ls -l
+    		ls -a
     		pwd
   		local file3=""$(pwd)"/results/Generated_ref.txt"
   		echo "File 1: $file1"
