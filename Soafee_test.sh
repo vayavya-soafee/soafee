@@ -45,7 +45,6 @@ for file_name in "${video_files[@]}"; do
  		
 		local file1=$1
 		local file2=$2
-		cd results
   		ls -l
     		ls -a
     		pwd
