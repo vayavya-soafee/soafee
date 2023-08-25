@@ -79,7 +79,7 @@ for file_name in "${video_files[@]}"; do
        			exit 1
 		fi
 	}
- 	sleep 10
+ 	sleep 10 
 	compare_text_files ""$(pwd)"/results/Generated_ref.txt" ""$(pwd)"/Golden_ref/$file_name.txt"
 
 done
