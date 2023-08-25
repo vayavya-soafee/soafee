@@ -19,7 +19,7 @@ for file_name in "${video_files[@]}"; do
        	fi
 	docker run -p 8089:8089 -p 5000:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector:latest
  	echo "in the middle of container run"
-  	cd results
+  	#cd results
   	echo "ls in bwtween"
    	ls
    	echo "pwd in bwtween"
