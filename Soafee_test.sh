@@ -41,14 +41,12 @@ for file_name in "${video_files[@]}"; do
  		
 		local file1=$1
 		local file2=$2
-		cd results
+		#cd results
   		ls -l
     		ls -a
     		pwd
-  		local file3=""$(pwd)"/results/Generated_ref.txt"
   		echo "File 1: $file1"
     		echo "File 2: $file2"
-      		echo "File 3: $file3"
       		echo "ls inside file comp function"
 		ls
   		echo "pwd inside file comp function"
@@ -70,7 +68,7 @@ for file_name in "${video_files[@]}"; do
 		#	echo "The files are different."
     		#	exit 1
   		#fi
-    		if [ $file3 == $file2 ]; then
+    		if [ $file1 == $file2 ]; then
     			echo "The files are the same."
 		else
     			echo "The files are different."
