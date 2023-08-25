@@ -37,11 +37,14 @@ for file_name in "${video_files[@]}"; do
 	sleep 5
 	#docker stop soafee_object_detector
 	#sleep 5
+ 	echo "pwd beofre comp fun"
+  	pwd
+   	ls
 	compare_text_files() {
  		
 		local file1=$1
 		local file2=$2
-		cd /results
+		cd results
   		ls -l
     		ls -a
     		pwd
