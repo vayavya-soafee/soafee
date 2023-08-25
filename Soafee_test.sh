@@ -57,26 +57,21 @@ for file_name in "${video_files[@]}"; do
   		#cd results
     		#pwd
       		#ls
-		#lines1=$(head -n 50 "$file1")
+		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
-    		#echo $lines1
+    		echo $lines1
       		#cd ..
-		#pwd
-		#lines2=$(head -n 50 "$file2")
-		#echo "golden line 2"
-  		#echo $lines2
-		#if [ "$lines1" = "$lines2" ]; then
-		#	echo "The files are the same."
-		#else
-		#	echo "The files are different."
-    		#	exit 1
-  		#fi
-    		if [ $file1 == $file2 ]; then
-    			echo "The files are the same."
+		pwd
+		lines2=$(head -n 50 "$file2")
+		echo "golden line 2"
+  		echo $lines2
+		if [ "$lines1" = "$lines2" ]; then
+			echo "The files are the same."
 		else
-    			echo "The files are different."
-       			exit 1
-		fi
+			echo "The files are different."
+    			exit 1
+  		fi
+    	
 	}
  	sleep 10 
 	compare_text_files ""$(pwd)"/results/Generated_ref.txt" ""$(pwd)"/Golden_ref/$file_name.txt"
