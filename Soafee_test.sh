@@ -3,17 +3,13 @@
 docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
 mkdir results
 chmod 777 results
-echo "ls inside script"
-ls
-echo "pwd inside script"
-pwd
 
 counter=1
 video_files=("Video0" "Video1" "Video2" "Video3" "Video4")
 
 for file_name in "${video_files[@]}"; do
 	if [ $counter -eq 1 ]; then
- 		docker network rm soafee-network
+ 		#docker network rm soafee-network
    		docker network create --driver bridge soafee-network
      		((counter++))
        	fi
@@ -45,27 +41,12 @@ for file_name in "${video_files[@]}"; do
  		
 		local file1=$1
 		local file2=$2
-  		ls -l
-    		ls -a
-    		pwd
   		echo "File 1: $file1"
     		echo "File 2: $file2"
-      		echo "ls inside file comp function"
-		ls
-  		echo "pwd inside file comp function"
-		pwd
-  		cd results
-    		echo "after doing cd "
-      		pwd
-      		ls
-		cd ..
-  		echo "out from results"
-    		pwd
+		
 		lines1=$(head -n 50 "$file1")
   		echo "generated ref line 1"
     		echo $lines1
-      		#cd ..
-		pwd
 		lines2=$(head -n 50 "$file2")
 		echo "golden line 2"
   		echo $lines2
