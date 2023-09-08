@@ -34,9 +34,7 @@ for file_name in "${video_files[@]}"; do
 	sleep 5
 	docker stop soafee_object_detector
 	sleep 5
- 	echo "pwd beofre comp fun"
-  	pwd
-   	ls
+  	
 	compare_text_files() {
  		
 		local file1=$1
@@ -45,10 +43,8 @@ for file_name in "${video_files[@]}"; do
     		echo "File 2: $file2"
 		
 		lines1=$(head -n 50 "$file1")
-  		echo "generated ref line 1"
     		echo $lines1
 		lines2=$(head -n 50 "$file2")
-		echo "golden line 2"
   		echo $lines2
 		if [ "$lines1" = "$lines2" ]; then
 			echo "The files are the same."
