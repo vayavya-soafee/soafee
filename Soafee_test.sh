@@ -13,8 +13,6 @@ for file_name in "${video_files[@]}"; do
    		docker network create --driver bridge soafee-network
      		((counter++))
        	fi
-	echo $minor
- 	echo $major
   	echo $PORT_1
    	echo $PORT_2
 	docker run -p $PORT_1:8089 -p $PORT_2:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector:latest
