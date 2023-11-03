@@ -57,11 +57,12 @@ for file_name in "${video_files[@]}"; do
   		fi
     	
 	}
- 	sleep 10 
+ 	sleep 10
+	arch=$(arch) 
   	if [ "$arch" == 'x86_64' ]; then 
 		echo "X64 Architecture"
 		compare_text_files ""$(pwd)"/results/Generated_ref.txt" ""$(pwd)"/Golden_ref_amd64/$file_name.txt"
- 	elif  [[ $arch == 'aarch64' ]]; then
+ 	elif [ "$arch" == 'aarch64' ]; then
     		echo "ARM Architecture"
       		compare_text_files ""$(pwd)"/results/Generated_ref.txt" ""$(pwd)"/Golden_ref_arm64/$file_name.txt"
       	fi
