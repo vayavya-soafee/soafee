@@ -16,8 +16,8 @@ for file_name in "${video_files[@]}"; do
   	echo $PORT_1
    	echo $PORT_2
     	arch
-	docker run -p $PORT_1:8089 -p $PORT_2:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector_main:arm64
-	docker run --name soafee_video_streamer -e TEST_MODE=1 --rm --network=soafee-network -v "$(pwd)"/Video_files/$file_name.mp4:/src/assets/Video0.mp4 -dit vayavyaaccountdockerhub/soafee_video_streamer_main:arm64
+	#docker run -p $PORT_1:8089 -p $PORT_2:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector_main:arm64
+	#docker run --name soafee_video_streamer -e TEST_MODE=1 --rm --network=soafee-network -v "$(pwd)"/Video_files/$file_name.mp4:/src/assets/Video0.mp4 -dit vayavyaaccountdockerhub/soafee_video_streamer_main:arm64
 	sleep 5
  
 
