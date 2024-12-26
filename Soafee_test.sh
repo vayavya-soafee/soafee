@@ -16,7 +16,7 @@ for file_name in "${video_files[@]}"; do
   	echo $PORT_1
    	echo $PORT_2
     	arch
-	docker run -p $PORT_1:8089 -p $PORT_2:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector_main:arm64
+	docker run -p 8089:8089 -p 5000:5000 --rm -e TEST_MODE=1 -v "$(pwd)"/results:/src/results --name=soafee_object_detector --network=soafee-network -dit vayavyaaccountdockerhub/soafee_object_detector_main:arm64
 	docker run --name soafee_video_streamer -e TEST_MODE=1 --rm --network=soafee-network -v "$(pwd)"/Video_files/$file_name.mp4:/src/assets/Video0.mp4 -dit vayavyaaccountdockerhub/soafee_video_streamer_main:arm64
 	sleep 5
  
@@ -46,8 +46,10 @@ for file_name in "${video_files[@]}"; do
     		echo "File 2: $file2"
 		
 		lines1=$(head -n 50 "$file1")
+  		echo "This is line 1 data"
     		echo $lines1
 		lines2=$(head -n 50 "$file2")
+  		echo "This is line 2 data"
   		echo $lines2
 		if [ "$lines1" = "$lines2" ]; then
 			echo "The files are the same."
