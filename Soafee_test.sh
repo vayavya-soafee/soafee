@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
+#docker login -u vayavyaaccountdockerhub -p vayavya-123 > /dev/null 2>&1
 mkdir results
 chmod 777 results
 
